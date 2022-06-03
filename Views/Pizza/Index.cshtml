@@ -10,7 +10,7 @@
 
 <a class="btn btn-primary mb-4" href="@Url.Action("FormNuovaPizza", "Post")"> Inserisci una nuova pizza </a>
 
-<div class="row">
+<div class="row row-cols-3">
                 @foreach(var element in Model.pizzas)
                    {
                     <div class="col">
